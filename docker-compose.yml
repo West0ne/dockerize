@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+
+  react-client-app:
+      extends:
+          file: ./kottans-2017-front-end/docker-compose.yml
+          service: serve
+      build:
+          context: ./kottans-2017-front-end
+          dockerfile: ./Dockerfile
+      container_name: react-client-app
+
+  ruby-server-app:
+    extends:
+        file: ./kottans-2017-back-end/docker-compose.yml
+        service: web
+    build:
+        context: ./kottans-2017-back-end
+        dockerfile: ./Dockerfile
+    container_name: ruby-client-app

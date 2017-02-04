@@ -1,0 +1,8 @@
+.posts-page {
+	@import './posts-page-styles/categories';
+	@import './posts-page-styles/post-info';
+	@import './posts-page-styles/comments';
+	@import './posts-page-styles/new-post-form';
+	@import './posts-page-styles/comments-form';
+	@import './posts-page-styles/event-party';
+}

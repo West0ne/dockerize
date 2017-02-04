@@ -1,0 +1,7 @@
+kottans-2017-back-end/.idea
+kottans-2017-back-end/db/*.db
+kottans-2017-front-end/.idea
+kottans-2017-front-end/node_modules
+kottans-2017-front-end/bundle.js
+kottans-2017-front-end/npm-debug.log
+kottans-2017-front-end/styles.css
